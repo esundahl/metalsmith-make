@@ -1,0 +1,28 @@
+{
+  "name": "metalsmith-make",
+  "version": "0.0.0",
+  "description": "Make plugin for Metalsmith",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/esundahl/metalsmith-make"
+  },
+  "keywords": [
+    "make",
+    "metalsmith",
+    "plugin"
+  ],
+  "author": "Erik Sundahl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esundahl/metalsmith-make/issues"
+  },
+  "homepage": "https://github.com/esundahl/metalsmith-make",
+  "dependencies": {
+    "minimatch": "^0.2.14",
+    "async": "^0.6.2"
+  }
+}
